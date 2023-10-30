@@ -18,6 +18,11 @@ img {
         display: block;
       }
       
+
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
+
 .container {
         width: 1158px;
         margin: 0 auto;
@@ -869,4 +874,5 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: var(--slate-color);
+}
 }
