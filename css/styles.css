@@ -195,7 +195,8 @@ img {
         .section-two-list {
                 list-style: none;
                 display: flex;
-                gap: 24px;
+                flex-direction: column;
+                gap: 72px;
         }
         
         .s-two-li {
@@ -216,7 +217,7 @@ img {
                         font-weight: 500;
                         line-height: 1.2;
                         letter-spacing: 0.02em;
-                        text-align: left;
+                        text-align: center;
                         color: var(--brand-color);
                         margin-bottom: 8px;
         }
