@@ -19,17 +19,20 @@ img {
       }
       
 
-
+      .container {
+        width: 100%;
+        padding: 0 15px;
+        margin: 0 auto;
+      }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 428px) {
         /* cały kod */
 
         .container {
-                width: 1158px;
-                margin: 0 auto;
-                padding: 0 15px;
-        }
+                width: 428px;
+              }
+
         .head {
         border-bottom: 1px solid #e7e9fc;
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -213,9 +216,9 @@ img {
                 margin-bottom: 8px;
         }
         .strategy {
-                        font-size: 20px;
-                        font-weight: 500;
-                        line-height: 1.2;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 1.11;
                         letter-spacing: 0.02em;
                         text-align: center;
                         color: var(--brand-color);
@@ -224,7 +227,7 @@ img {
         
         .section2-describe {
                         font-size: 16px;
-                        font-weight: 400;
+                        font-weight: 500;
                         line-height: 1.5;
                         letter-spacing: 0.02em;
                         text-align: left;
@@ -882,8 +885,12 @@ img {
       }
       /* ================================================= TABLET 👇 ========================================= */
       @media screen and (min-width: 768px) {
-        /* cały kod */
+        .container {
+          width: 768px;
+        }
       }
+        /* cały kod */
+      
       /* ================================================= NOT DESKTOP 👇 ========================================= */
       @media screen and (max-width: 1157px) {
         .icon-features {
@@ -893,4 +900,7 @@ img {
       /* ================================================= DESKTOP 👇 ========================================= */
       @media screen and (min-width: 1158px) {
         /* co jest potrzebne dla desktopu */
+        .container {
+                width: 1158px;
+              }
       }
