@@ -126,11 +126,11 @@ img {
         }
 
 .social-icons-list {
-                        display: flex;
-                        justify-content: center;
-                        gap: 24px;
-                        list-style: none;
-                        margin-top: 8px;
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+        list-style: none;
+        margin-top: 8px;
         }
 
 .social-icons-li {
@@ -174,4 +174,28 @@ img {
     .icon-features {
       display: none;
     }
+
+.section-five {
+        padding-top: 120px;
+        padding-bottom: 120px;
+        }
+
+.div-customers {
+        display: flex;
+        justify-content: center;
+        }
+
+.customers {
+font-size: 36px;
+line-height: 1.11;
+color: #2e2f42;
+margin-bottom: 72px;
+}
+
+                .customers-list {
+                        display: flex;
+                        gap: 24px;
+                        list-style: none;
+                }
+
   }
