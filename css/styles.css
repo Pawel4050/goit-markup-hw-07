@@ -29,12 +29,74 @@ img {
 
     .container {
         width: 428px;
+        padding: 0 15px;
+    margin: 0 auto;
     }
+
+
+
+
 
 /* section two start */
 
 .section-two {
-    
+    padding: 120px 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section-two-list {
+    list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 72px;
+}
+
+.strategy {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--brand-color);
+    margin-bottom: 8px;
+}
+
+.section2-describe {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: var(--slate-color);
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 1157px) {
+    .icon-features {
+      display: none;
+    }
   }
