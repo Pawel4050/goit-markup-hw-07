@@ -77,12 +77,29 @@ img {
     color: var(--slate-color);
 }
 
-.section-three {
-    padding-bottom: 120px;
+.section-four {
+    padding: 120px 0;
+    background-color: #F4F4FD;
+}
 
-  }
+.s-four-header {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--brand-color);
+    margin-bottom: 72px;
+}
 
-  
+.team-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+
   }
 
 
