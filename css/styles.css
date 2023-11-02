@@ -228,4 +228,14 @@ margin-bottom: 72px;
         fill: currentColor;
         }
 
+.footer {
+        background-color: var(--brand-color);
+        padding: 100px 0;       
+        }
+
+.footer-container {
+        display: flex;
+        }
+
+
   }
