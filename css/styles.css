@@ -235,6 +235,24 @@ margin-bottom: 72px;
 
 .footer-container {
         display: flex;
+        flex-wrap: wrap;
+        }
+
+.logo-link-footer {
+        text-decoration: none;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #F4F4FD;
+        display: inline-block;
+        margin-bottom: 16px;
+        }
+
+.logo-web {
+        color: #4D5AE5;
         }
 
 
