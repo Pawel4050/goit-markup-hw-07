@@ -628,4 +628,31 @@ margin-bottom: 72px;
 
 /* =============================================== klasy modal stop ====================================*/
 
+
+/* ================== mobile menu klasy start ===============================*/
+
+
+.m-menu-list {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        gap: 40px;
+        padding-top: 80px;
+        padding-left: 40px;
+}
+.m-menu-link {
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: left;
+text-decoration: none;
+color: var(--brand-color);
+}
+
+.m-menu-link:hover,
+.m-menu-link:focus {
+        color: var(--ocean);
+}
+
   }
