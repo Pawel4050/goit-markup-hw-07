@@ -60,7 +60,19 @@ img {
         color: #4D5AE5;
 }
 
+.icon-hamb {
+        fill: var(--brand-color);
+        background: white;
+}
 
+.icon-ham {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: currentColor;
+      }
 
 
 /* section one start */
