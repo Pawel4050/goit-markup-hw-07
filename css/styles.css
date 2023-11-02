@@ -60,6 +60,9 @@ img {
         color: #4D5AE5;
 }
 
+.hamburger-icon {
+        fill: var(--brand-color);
+}
 
 
 /* section one start */
