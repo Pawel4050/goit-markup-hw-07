@@ -231,14 +231,14 @@ margin-bottom: 72px;
 .footer {
         background-color: var(--brand-color);
         padding: 100px 0;    
-        height: 664px;   
         }
 
 .footer-container {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        }
+        flex-direction: column;
+        justify-content: space-between; /* Rozmieszczenie w równych odstępach w pionie */
+        align-items: center; /* Wyśrodkowanie elementów w poziomie */
+        height: 664px; /* Wysokość stopki */        }
 
 .logo-link-footer {
         text-decoration: none;
