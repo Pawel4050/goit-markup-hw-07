@@ -61,18 +61,19 @@ img {
         color: #4D5AE5;
 }
 
-.icon-hamb {
-        fill: var(--brand-color);
-        background: white;
-}
-
-.icon-ham {
-        display: inline-block;
-        width: 1em;
-        height: 1em;
-        stroke-width: 0;
-        stroke: currentColor;
-        fill: currentColor;
+.menu-toggle {
+        min-height: 40px;
+        min-width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        outline: none;
       }
 
 
