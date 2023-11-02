@@ -314,6 +314,9 @@ margin-bottom: 72px;
 
 .footer-form-div {
         margin-left: auto;
+        display: flex;
+  flex-direction: column; /* Umieszczenie elementów w pionie */
+  align-items: center; /* Wyśrodkowanie elementów w poziomie */
 }
 
 .footer-form-div-p {
@@ -331,7 +334,7 @@ margin-bottom: 72px;
 }
 
 .footer-input {
-        width: 264px;
+        width: 398px;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
