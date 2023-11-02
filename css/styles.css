@@ -230,7 +230,8 @@ margin-bottom: 72px;
 
 .footer {
         background-color: var(--brand-color);
-        padding: 100px 0;       
+        padding: 100px 0;    
+        height: 664px;   
         }
 
 .footer-container {
