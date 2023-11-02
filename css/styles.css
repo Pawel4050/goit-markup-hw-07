@@ -313,6 +313,8 @@ margin-bottom: 72px;
 }
 
 .footer-form-div {
+        width: 398px;
+        height: 136px;
         margin-left: auto;
         display: flex;
   flex-direction: column; /* Umieszczenie elementów w pionie */
