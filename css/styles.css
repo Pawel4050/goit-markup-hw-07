@@ -34,22 +34,22 @@ img {
                       
                       }
                 
-                .cont {
-                        display: flex;
+        .cont {
+                display: flex;
                         
-                }
+        }
                 
-                .logo-link {
-                    text-decoration: none;
-                    font-family: Raleway;
-                        font-size: 18px;
-                        font-weight: 800;
-                        line-height: 1.17;
-                        letter-spacing: 0.03em;
-                        text-align: left;
-                        color: var(--brand-color);
-                        margin-right: 76px;
-                }
+        .logo-link {
+                text-decoration: none;
+                font-family: Raleway;
+                font-size: 18px;
+                font-weight: 800;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-align: left;
+                color: var(--brand-color);
+                 margin-right: 76px;
+        }
                 .logo-web {
                         color: #4D5AE5;
                 }
@@ -70,7 +70,7 @@ img {
                         display: flex;
                         gap: 40px;
                         padding-left: 0;
-                        
+                        display: none;
                 }
                 
                 .link-nav {
@@ -107,6 +107,7 @@ img {
                 
                 .address {
                         padding: 24px 0;
+                        display: none;
                 }
                 .contact {
                         font-size: 16px;
