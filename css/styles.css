@@ -391,13 +391,14 @@ width: 480px;
                 
                 .customers-list {
                         display: flex;
+                        flex-wrap: wrap;
                         gap: 24px;
                         list-style: none;
                 }
                 
                 .customers-list-li {
-                        width: calc((100% - 120px) / 6);
                         height: 88px;
+                        width: 190px;
                 }
                 
                 .customer-icon-link {
