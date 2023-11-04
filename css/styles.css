@@ -400,6 +400,7 @@ width: 480px;
                         list-style: none;
                         column-gap: 16px;
                         row-gap: 72px;
+                        max-width: 396px;
                 }
                 
                 .customers-list-li {
