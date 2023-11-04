@@ -892,6 +892,14 @@ width: 480px;
                 margin-top: 48px;
                 margin: 40px;
         }
+
+        .social-list-mobilne-menu {
+        display: flex;
+        gap: 16px;
+        list-style: none;
+        gap: 56px;
+        }
+        
                 
                 
                 
