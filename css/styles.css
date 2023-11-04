@@ -540,6 +540,7 @@ width: 480px;
                 .footer-form {
                         display: flex;
                         gap: 24px;
+                        flex-direction: column;
                 }
                 
                 .footer-input {
