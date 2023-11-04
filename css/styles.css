@@ -212,11 +212,18 @@ width: 480px;
                 .section-two-list {
                         list-style: none;
                         display: flex;
-                        gap: 24px;
-                }
-                
+                        gap: 72px;
+                        flex-direction: column;
+                        padding-top: 96px;
+                        padding-bottom: 96px;
+                        gap: 72px;
+                        padding-left: 16px;
+                        padding-right: 16px;
+                        margin: 0 auto;
+                        }
+                        
                 .s-two-li {
-                        width: calc((100% - 72px) / 4);
+                        width: 100%;
                 }
                 
                 .icon-section-two {
