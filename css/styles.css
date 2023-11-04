@@ -302,7 +302,8 @@ width: 480px;
                 .team-list {
                         list-style: none;
                         display: flex;
-                        gap: 24px;
+                        gap: 72px;
+                        flex-direction: column;
                 }
                 
                 .team-li {
