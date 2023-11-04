@@ -165,6 +165,10 @@ width: 480px;
                         background-size: cover;
                         margin: 0 auto;
                 }
+
+                .motto-div {
+                        max-width: 320px;
+                }
                 
                 .motto {
                         font-size: 36px;
