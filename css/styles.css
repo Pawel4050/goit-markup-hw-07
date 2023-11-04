@@ -841,7 +841,7 @@ width: 480px;
        display: flex;
        align-items: center;
        justify-content: center; 
-       background-color: #e7e9fc;
+       background-color: #ffffff;
        border: 1px solid rgba(0, 0, 0, 0.1);
        padding: 0;
        cursor: pointer; 
@@ -881,8 +881,8 @@ width: 480px;
         color: #404bbf;
         }
 
-        .hamburger-adress{
-   padding-top: 284px;
+        .hamburger-contacts {
+   padding-top: 180px;
         }
 
         .hamburger-adress-ul{
