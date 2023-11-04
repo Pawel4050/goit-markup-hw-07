@@ -400,7 +400,6 @@ width: 480px;
                         list-style: none;
                         column-gap: 16px;
                         row-gap: 72px;
-                        max-width: 396px;
                         justify-content: center;
                 }
                 
@@ -453,6 +452,7 @@ width: 480px;
                 .footer-container {
                         display: flex;
                         align-items: baseline;
+                        flex-direction: column;
                 }
                 
                 .logo-p-div {
