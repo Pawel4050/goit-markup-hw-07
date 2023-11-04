@@ -270,6 +270,7 @@ width: 480px;
                 
                 .section-three {
                 padding-bottom: 120px;
+                display: none;
                 }
                 .we-doing {
                         list-style: none;
