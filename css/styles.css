@@ -220,7 +220,6 @@ width: 480px;
                         flex-direction: column;
                         padding-top: 96px;
                         padding-bottom: 96px;
-                        gap: 72px;
                         padding-left: 16px;
                         padding-right: 16px;
                         margin: 0 auto;
@@ -247,6 +246,8 @@ width: 480px;
                                 text-align: left;
                                 color: var(--brand-color);
                                 margin-bottom: 8px;
+                                display: flex;
+                                justify-content: center;
                 }
                 
                 .section2-describe {
