@@ -150,6 +150,10 @@ width: 480px;
                 .contact:focus {
                         color: var(--activate-color);
                 }
+        
+        .hamburger {
+                display: flex;
+        }
                 
                 .section-one {
                         background-color: var(--brand-color);
