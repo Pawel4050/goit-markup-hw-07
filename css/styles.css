@@ -401,6 +401,7 @@ width: 480px;
                         column-gap: 16px;
                         row-gap: 72px;
                         max-width: 396px;
+                        justify-content: center;
                 }
                 
                 .customers-list-li {
