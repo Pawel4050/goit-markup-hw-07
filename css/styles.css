@@ -1532,16 +1532,15 @@ margin: 0 auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        align-items: center;
+        align-items: flex-start;
         gap: 72px;
 }
                                 
-                                .logo-p-div {
-                                        /* margin-right: 120px; */
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                
+.logo-p-div {
+        /* margin-right: 120px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
                                 }
                                 
                                 .social-media-p-footer {
