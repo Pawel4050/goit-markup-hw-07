@@ -1297,6 +1297,8 @@ margin: 0 auto;
         /* margin: 0 auto; */
         flex-direction: row;
         flex-wrap: wrap;
+        column-gap: 24px;
+        row-gap: 72px;
 }
                                         
 .s-two-li {
