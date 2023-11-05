@@ -1540,24 +1540,23 @@ margin: 0 auto;
         /* margin-right: 120px; */
         display: flex;
         flex-direction: column;
-        align-items: center;
-                                }
+        align-items: flex-start;
+}
                                 
-                                .social-media-p-footer {
-                                        font-weight: 500;
-                                        font-size: 16px;
-                                        line-height: 1.5;
-                                        letter-spacing: 0.02em;
-                                        color: #FFFFFF;
-                                        margin-bottom: 16px;
-                                
-                                }
+.social-media-p-footer {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+}
                 
-                                .social-media-div {
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                }
+.social-media-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
                                 
                                 .logo-link-footer {
                                         text-decoration: none;
