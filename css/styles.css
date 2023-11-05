@@ -1124,41 +1124,40 @@ width: 480px;
         color: var(--brand-color);
         margin-right: 76px;
 }
-                                .logo-web {
-                                        color: #4D5AE5;
-                                }
+.logo-web {
+color: #4D5AE5;
+}
                                 
-                                .nav-box {
-                                        display: flex;
-                                        margin-right: auto;
-                                        align-items: center;
-                                }
-                                .site-nav {
-                                    list-style: none;
-                                        font-size: 16px;
-                                        font-weight: 500;
-                                        line-height: 1.5;
-                                        letter-spacing: 0.02em;
-                                        text-align: left;
-                                        color: var(--brand-color);
-                                        display: flex;
-                                        gap: 40px;
-                                        padding-left: 0;
-                                        display: none;
-                                }
+.nav-box {
+display: flex;
+margin-right: auto;
+align-items: center;
+}
+.site-nav {
+list-style: none;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+text-align: left;
+color: var(--brand-color);
+display: flex;
+gap: 40px;
+padding-left: 0;
+}
                                 
-                                .link-nav {
-                                    text-decoration: none;
-                                    color: var(--brand-color);
-                                    padding: 24px 0;
-                                    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                    display: inline-block;
-                                }
+.link-nav {
+        text-decoration: none;
+        color: var(--brand-color);
+        padding: 24px 0;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-block;
+}
                                 
-                                .link-nav:hover,
-                                .link-nav:focus {
-                                        color: var(--activate-color);
-                                }
+.link-nav:hover,
+.link-nav:focus {
+        color: var(--activate-color);
+}
                                 
                                 .studio-underline,
                                 .portfolio-underline {
@@ -1181,7 +1180,6 @@ width: 480px;
                                 
                                 .address {
                                         padding: 24px 0;
-                                        display: none;
                                 }
                                 .contact {
                                         font-size: 16px;
@@ -1229,21 +1227,21 @@ margin: 0 auto;
 }
 
                 
-                                .motto-div {
-                                        max-width: 320px;
-                                }
+.motto-div {
+        max-width: 320px;
+}
                                 
-                                .motto {
-                                        font-size: 36px;
-                                        font-weight: 700;
-                                        line-height: 1.11;
-                                        letter-spacing: 0.02em;
-                                        text-align: center;
-                                        color: #FFFFFF;
-                                        max-width: 496px;
-                                        margin: 0 auto;
-                                        margin-bottom: 48px;
-                                }
+.motto {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #FFFFFF;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+}
                                 
                                 .order-service-button {
                                         font-size: 16px;
