@@ -1612,12 +1612,11 @@ margin: 0 auto;
                                         fill: #f4f4fd;
                                 }
                                 
-                                .footer-form-div {
-                                        /*margin-left: auto; */
-                                        display: flex;
-                                        flex-direction: column;
-                                        align-items: center;
-                                }
+.footer-form-div {
+        /*margin-left: auto; */
+        display: flex;
+        flex-direction: column;
+}
                                 
                                 .footer-form-div-p {
                                         margin-bottom: 16px;
@@ -1628,12 +1627,11 @@ margin: 0 auto;
                                         color: #ffffff;
                                 }
                                 
-                                .footer-form {
-                                        display: flex;
-                                        gap: 24px;
-                                        flex-direction: column;
-                                        align-items: center;
-                                }
+.footer-form {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+}
                                 
                                 .footer-input {
                                         width: 398px;
