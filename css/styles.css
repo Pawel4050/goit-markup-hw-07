@@ -151,9 +151,10 @@ width: 480px;
                         color: var(--activate-color);
                 }
         
-        .hamburger {
-                display: flex;
-        }
+.hamburger {
+        display: flex;
+        display: none;
+}
                 
                 .section-one {
                         background-color: var(--brand-color);
