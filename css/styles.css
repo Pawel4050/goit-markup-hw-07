@@ -43,6 +43,10 @@ display: block;
 @media screen and (max-width: 767px) {
         /* cały kod */
 
+        .icon-features {
+                display: none;
+      }
+
 .container {
 width: 480px;
 }
@@ -255,6 +259,7 @@ width: 480px;
                         height: 112px;
                         border-radius: 4px;
                         margin-bottom: 8px;
+                        display: none;
                 }
                 .strategy {
                         font-size: 36px;
@@ -1099,7 +1104,12 @@ width: 480px;
 
 }
 /* ================================================= TABLET 👇 ========================================= */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px){
+
+        .icon-features {
+                display: none;
+      }
+    
 
 .menu-toggle {
         display: none;
@@ -1319,6 +1329,7 @@ margin: 0 auto;
         height: 112px;
         border-radius: 4px;
         margin-bottom: 8px;
+        display: none;
 }
 .strategy {
         font-size: 36px;
@@ -2173,25 +2184,31 @@ margin: 0 auto;
 /* ================================================= NOT DESKTOP 👇 ========================================= */
 
 
-@media screen and (max-width: 1157px) {
+/*@media screen and (max-width: 1157px) {
+
         .icon-features {
-          display: none;
-}
- }
+                display: none;
+      }
+      
+ } */
+
+ 
 /* ================================================= DESKTOP 👇 ========================================= */
 @media screen and (min-width: 1158px) {
         /* co jest potrzebne dla desktopu */
 
-        .head {
-                border-bottom: 1px solid #e7e9fc;
-                box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-                      
-                      }
-                
-                .cont {
-                        display: flex;
-                        
-                }
+.head {
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.container {
+        width: 1158px;
+}
+
+.cont {
+        display: flex;
+}
                 
                 .logo-link {
                     text-decoration: none;
@@ -3029,7 +3046,18 @@ margin: 0 auto;
                 text-align: left;
                 color: var(--slate-color);
                 }
+.hamburger {
+        display: none;
+}
 
+.menu-mobile-container {
+        display: none;
+}
+
+.web-div {
+        display: flex;
+        align-items: center;
+}
       }
 
 
