@@ -533,6 +533,9 @@ width: 480px;
                 
                 .footer-form-div {
                         /*margin-left: auto; */
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                 }
                 
                 .footer-form-div-p {
