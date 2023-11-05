@@ -1535,7 +1535,8 @@ margin: 0 auto;
         align-items: flex-start;
         row-gap: 72px;
         column-gap: 24px;
-        justify-content: center;
+        justify-content: left;
+        padding-left: 123px;
 }
                                 
 .logo-p-div {
