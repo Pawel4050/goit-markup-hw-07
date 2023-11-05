@@ -545,7 +545,7 @@ width: 480px;
                 }
                 
                 .footer-input {
-                        width: 264px;
+                        width: 398px;
                         height: 40px;
                         border: 1px solid #ffffff;
                         background-color: transparent;
@@ -564,7 +564,7 @@ width: 480px;
                       
                 
                 .button-footer-form {
-                        min-width: 165px;
+                        width: 165px;
                         display: flex;
                         justify-content: center;
                         align-items: center;
