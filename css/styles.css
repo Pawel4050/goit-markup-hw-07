@@ -458,9 +458,9 @@ width: 480px;
                 
                 /* początek klas dla footer */
                 
-                .footer {
-                        background-color: var(--brand-color);
-                        padding: 100px 0;       
+.footer {
+        background-color: var(--brand-color);
+        padding: 100px 0;       
                 }
                 
                 .footer-container {
@@ -1528,12 +1528,13 @@ margin: 0 auto;
                                         padding: 100px 0;       
                                 }
                                 
-                                .footer-container {
-                                        display: flex;
-                                        align-items: center;
-                                        flex-direction: column;
-                                        gap: 72px;
-                                }
+.footer-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 72px;
+}
                                 
                                 .logo-p-div {
                                         /* margin-right: 120px; */
