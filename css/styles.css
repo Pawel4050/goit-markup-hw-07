@@ -458,6 +458,9 @@ width: 480px;
                 
                 .logo-p-div {
                         /* margin-right: 120px; */
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
                 
                 }
                 
