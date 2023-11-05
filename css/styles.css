@@ -1500,16 +1500,16 @@ margin: 0 auto;
                                 
                                 }
                                 
-                                .customer-icon-link:hover,
-                                .customer-icon-link:focus,
-                                .customer-icon-link:active {
-                                        border-color: #404bbf;
-                                        color: #404bbf;
-                                }
+.customer-icon-link:hover,
+.customer-icon-link:focus,
+.customer-icon-link:active {
+        border-color: #404bbf;
+        color: #404bbf;
+}
                                 
-                                .customer-icon {
-                                        fill: currentColor;
-                                }
+.customer-icon {
+        fill: currentColor;
+}
                                 
                                 
                                 
