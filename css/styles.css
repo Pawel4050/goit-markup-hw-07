@@ -1127,6 +1127,11 @@ width: 480px;
         color: var(--brand-color);
 }
 
+.web-div {
+        display: flex;
+        align-items: center;
+}
+
 .logo-web {
 color: #4D5AE5;
 }
