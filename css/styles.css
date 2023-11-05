@@ -470,6 +470,12 @@ width: 480px;
                         margin-bottom: 16px;
                 
                 }
+
+                .social-media-div {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                }
                 
                 .logo-link-footer {
                         text-decoration: none;
