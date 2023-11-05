@@ -68,28 +68,29 @@ width: 480px;
                 color: var(--brand-color);
                  margin-right: 76px;
         }
-                .logo-web {
-                        color: #4D5AE5;
-                }
+.logo-web {
+        color: #4D5AE5;
+}
                 
-                .nav-box {
-                        display: flex;
-                        margin-right: auto;
-                        align-items: center;
-                }
-                .site-nav {
-                    list-style: none;
-                        font-size: 16px;
-                        font-weight: 500;
-                        line-height: 1.5;
-                        letter-spacing: 0.02em;
-                        text-align: left;
-                        color: var(--brand-color);
-                        display: flex;
-                        gap: 40px;
-                        padding-left: 0;
-                        display: none;
-                }
+.nav-box {
+        display: flex;
+        margin-right: auto;
+        align-items: center;
+        }
+
+.site-nav {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--brand-color);
+        display: flex;
+        gap: 40px;
+        padding-left: 0;
+        display: none;
+}
                 
                 .link-nav {
                     text-decoration: none;
@@ -153,7 +154,6 @@ width: 480px;
         
 .hamburger {
         display: flex;
-        display: none;
 }
                 
                 .section-one {
