@@ -1207,9 +1207,10 @@ padding-left: 0;
         color: var(--activate-color);
 }
                         
-                        .hamburger {
-                                display: flex;
-                        }
+.hamburger {
+        display: flex;
+        display: none;
+}
                                 
 .section-one {
 background-color: var(--brand-color);
@@ -1245,23 +1246,22 @@ margin: 0 auto;
         margin-bottom: 48px;
 }
                                 
-                                .order-service-button {
-                                        font-size: 16px;
-                                        font-weight: 500;
-                                        line-height: 1.5;
-                                        letter-spacing: 0.04em;
-                                        color: #FFFFFF;
-                                        background-color: #4D5AE5;
-                                        cursor: pointer;
-                                        display: block;
-                                        min-width: 169px;
-                                        height: 56px;
-                                        border: none;
-                                        border-radius: 4px;
-                                        margin: 0 auto;
-                                        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-                                
-                                }
+.order-service-button {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background-color: #4D5AE5;
+        cursor: pointer;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
+        margin: 0 auto;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
                                 
                                 .section-two {
                                         padding: 0 0;
