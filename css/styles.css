@@ -1314,17 +1314,16 @@ margin: 0 auto;
         border-radius: 4px;
         margin-bottom: 8px;
 }
-                                .strategy {
-                                                font-size: 36px;
-                                                font-weight: 700;
-                                                line-height: 1.11;
-                                                letter-spacing: 0.02em;
-                                                text-align: left;
-                                                color: var(--brand-color);
-                                                margin-bottom: 8px;
-                                                display: flex;
-                                                justify-content: center;
-                                }
+.strategy {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--brand-color);
+        margin-bottom: 8px;
+        display: flex;
+}
                                 
                                 .section2-describe {
                                                 font-size: 16px;
