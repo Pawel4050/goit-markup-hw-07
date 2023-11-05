@@ -451,12 +451,13 @@ width: 480px;
                 
                 .footer-container {
                         display: flex;
-                        align-items: baseline;
+                        align-items: center;
                         flex-direction: column;
+                        gap: 72px;
                 }
                 
                 .logo-p-div {
-                        margin-right: 120px;
+                        /* margin-right: 120px; */
                 
                 }
                 
@@ -525,7 +526,7 @@ width: 480px;
                 }
                 
                 .footer-form-div {
-                        margin-left: auto;
+                        /*margin-left: auto; */
                 }
                 
                 .footer-form-div-p {
