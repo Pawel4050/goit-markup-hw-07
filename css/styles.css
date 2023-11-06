@@ -75,6 +75,10 @@ height: auto;
         .menu {
           display: none;
         }
+
+        .container {
+                max-width: 428px;
+        }
       }
 
 
