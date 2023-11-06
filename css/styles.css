@@ -925,8 +925,8 @@ height: auto;
         padding: 0;
       }
 
-      .hamburger-nav-font{
-        color: #2E2F42;
+.hamburger-menu-link {
+        color: var(--brand-color);
         font-family: Roboto;
         font-size: 36px;
         font-style: normal;
@@ -936,11 +936,28 @@ height: auto;
         text-transform: capitalize;
         text-decoration: none;
         position: relative;
+}
+.link-bar {
+        position: relative;
         color: #404bbf;
+    }
+
+
+      .hamburger-nav-font{
+        color: var(--brand-color);
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        text-decoration: none;
+        position: relative;
         }
 
-        .link-bar {
-                position: relative;
+        .link-ham {
+        position: relative;
         color: #404bbf;
         }
 
