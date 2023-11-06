@@ -41,7 +41,7 @@ height: auto;
       }
 
 /* ================================================= MOBILE 👇 ========================================= */
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 767px){
         /* cały kod */
 
         .icon-features {
@@ -2226,7 +2226,7 @@ margin: 0 auto;
 
  
 /* ================================================= DESKTOP 👇 ========================================= */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
         /* co jest potrzebne dla desktopu */
 
 .head {
