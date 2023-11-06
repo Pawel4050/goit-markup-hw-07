@@ -83,7 +83,7 @@ height: auto;
         .container {
                 max-width: 428px;
         }
-      }
+      
 
 
       .logo-link {
@@ -871,7 +871,7 @@ height: auto;
         color: #fff;
         text-decoration: none;
       }
-
+      }
 
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) and (max-width: 1157px){
