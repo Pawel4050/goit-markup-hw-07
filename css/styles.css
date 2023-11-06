@@ -172,7 +172,7 @@ width: 480px;
 .section-one {
         background-color: var(--brand-color);
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
@@ -185,7 +185,7 @@ width: 480px;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .section-one {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
         }
 }
 
@@ -1258,7 +1258,7 @@ margin: 0 auto;
 .section-one {
         background-color: var(--brand-color);
         padding: 188px 0;
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
         max-width: 1440px;
         background-repeat: no-repeat;
         background-position: center;
@@ -1271,7 +1271,7 @@ margin: 0 auto;
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 .section-one {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
         }
 }
 
@@ -2349,7 +2349,7 @@ margin: 0 auto;
                 .section-one {
                         background-color: var(--brand-color);
                         padding: 188px 0;
-                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office1x.jpg);
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
                         max-width: 1440px;
                         background-repeat: no-repeat;
                         background-position: center;
@@ -2362,7 +2362,7 @@ margin: 0 auto;
                 (min-resolution: 192dpi),
                 (min-resolution: 2dppx) {
                 .section-one {
-                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office2x.jpg);
+                        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@2x.jpg);
                         }
                 }
                 
