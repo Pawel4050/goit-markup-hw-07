@@ -927,7 +927,8 @@ height: auto;
 .social-list-mobile {
         list-style: none;
         display: flex;
-        gap: 56px;
+        max-width: 328px;
+        justify-content: space-between;
 }
 
       }
