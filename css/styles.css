@@ -897,6 +897,12 @@ height: auto;
     font-style: normal;
 }
 
+.mobile-menu-li-a::after {
+        color: #404bbf;
+}
+
+
+
 .address-ul {
         list-style: none;
         display: flex;
