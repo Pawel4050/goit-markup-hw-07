@@ -825,6 +825,13 @@ height: auto;
         border-radius: 50%;
         outline: none;
       }
+
+.menu-button-close {
+        border: 1px solid #E7E9FC;
+    border-radius: 50%;
+    background-color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
       
       /* @media (min-width: 768px) {
         .menu-toggle {
@@ -863,8 +870,12 @@ height: auto;
       }
       
       .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
         padding: 0;
         margin: 0;
+        margin-bottom: 284px;
         list-style: none;
       }
       
