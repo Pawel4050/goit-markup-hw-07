@@ -898,11 +898,15 @@ height: auto;
 }
 
 
-.studio-underline::after,
+/*.studio-underline::after,
 .portfolio-underline::after {
   position: relative;
   color: #404bbf;
   
+}*/
+
+.color-one {
+        color: #404bbf;
 }
 
 
