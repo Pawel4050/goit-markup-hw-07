@@ -896,6 +896,33 @@ height: auto;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-style: normal;
 }
+
+.address-ul {
+        list-style: none;
+        display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.tel-mob-menu {
+        font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    color: #4d5ae5;
+    text-decoration: none;
+    font-style: normal;
+}
+
+.mail-mob-menu {
+        font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+    color: var(--slate-color);
+    text-decoration: none;
+    font-style: normal;
+}
+
       }
 
 /* ================================================= TABLET 👇 ========================================= */
