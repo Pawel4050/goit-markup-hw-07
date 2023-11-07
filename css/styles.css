@@ -875,7 +875,7 @@ height: auto;
         gap: 40px;
         padding: 0;
         margin: 0;
-        margin-bottom: 284px;
+        margin-bottom: 200px;
         list-style: none;
       }
       
@@ -902,6 +902,7 @@ height: auto;
         display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 48px;
 }
 .tel-mob-menu {
         font-size: 36px;
@@ -921,6 +922,12 @@ height: auto;
     color: var(--slate-color);
     text-decoration: none;
     font-style: normal;
+}
+
+.social-list-mobile {
+        list-style: none;
+        display: flex;
+        gap: 56px;
 }
 
       }
