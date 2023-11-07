@@ -897,9 +897,15 @@ height: auto;
     font-style: normal;
 }
 
-.mobile-menu-li-a::after {
-        color: #404bbf;
+
+.studio-underline::after,
+.portfolio-underline::after {
+  position: relative;
+  color: #404bbf;
+  
 }
+
+
 
 
 
