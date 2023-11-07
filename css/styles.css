@@ -2000,6 +2000,10 @@ margin: 0 auto;
 .cont {
         display: flex;
 }
+
+.display-none {
+        display: none;
+}
                 
                 .logo-link {
                     text-decoration: none;
