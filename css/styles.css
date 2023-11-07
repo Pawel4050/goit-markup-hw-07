@@ -60,7 +60,7 @@ height: auto;
         min-height: 80px;
         display: flex;
         align-items: center;
-        justify-content: flex-end;
+        justify-content: space-between;
       }
       
       .menu {
@@ -880,6 +880,9 @@ height: auto;
                 display: none;
       }
     
+.display-none {
+        display: none;
+}
 
 .menu-toggle {
         display: none;
