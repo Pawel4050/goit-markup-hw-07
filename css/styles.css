@@ -108,36 +108,36 @@ height: auto;
         align-items: center;
         }
 
-        .site-nav {
-                list-style: none;
-                font-size: 16px;
-                font-weight: 500;
-                line-height: 1.5;
-                letter-spacing: 0.02em;
-                text-align: left;
-                color: var(--brand-color);
-                display: flex;
-                gap: 40px;
-                padding-left: 0;
-                display: none;
-        }
+.site-nav {
+        list-style: none;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: left;
+        color: var(--brand-color);
+        display: flex;
+        gap: 40px;
+        padding-left: 0;
+        display: none;
+}
 
-        .address {
-                padding: 24px 0;
-                display: none;
-        }
+.address {
+        padding: 24px 0;
+        display: none;
+}
 
 
-        .section-one {
-                background-color: var(--brand-color);
-                padding: 188px 0;
-                background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
-                max-width: 1440px;
-                background-repeat: no-repeat;
-                background-position: center;
-                background-size: cover;
-                margin: 0 auto;
-        }
+.section-one {
+        background-color: var(--brand-color);
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office@1x.jpg);
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+}
         
         @media (min-device-pixel-ratio: 2),
         (-webkit-min-device-pixel-ratio: 2),
@@ -1126,9 +1126,9 @@ margin: 0 auto;
 }
                                 
 .motto {
-        font-size: 36px;
+        font-size: 56px;
         font-weight: 700;
-        line-height: 1.11;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #FFFFFF;
